@@ -1,0 +1,240 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 1320px;
+    padding: 0 58px;
+    margin: 0 auto;
+}
+
+.header{
+    width: 1320px;
+    margin: 0 auto;
+    height:60px;
+    box-shadow: 0px 4px 20px 0px #0000001A;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom:30px ;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    font-weight: 600;
+}
+
+.nav li{
+    padding: 0 20px;
+    /* cursor: pointer;
+    transition: all .5 linear; */
+}
+
+
+.ul2 .li2:hover{
+    border-bottom: 2px solid;
+    padding: 3px 20px;
+
+}
+
+.ul3 .li3:hover{
+    transition: all .5 linear;
+    padding: 20px;
+    color: white;
+    background: rgba(0, 0, 0, 1);
+}
+
+
+.nav .number{
+    background: rgb(0, 195, 255);
+    padding: 10px 20px;
+    border-radius: 7px;
+    color:white;
+    font-family: sans-serif;
+}
+
+.nav .number2{
+    border:3px solid rgb(0, 195, 255);
+    padding: 10px 20px;
+    border-radius: 7px;
+    color:rgb(0, 195, 255);
+    font-family: sans-serif;
+}
+
+.text{
+    font-weight: 700;
+    color: green;
+    width: 300px;
+    text-align: center;
+}
+
+.li4{
+    position: relative;
+    padding-bottom:2px ;
+}
+
+
+.li4:hover{
+    border-bottom: 2px solid;
+}
+
+.xizmat_menu{
+    position: absolute;
+    left:-20px;
+    margin: 10px 0;
+    padding: 10px;
+    cursor: pointer;
+    background: #fff;
+    width: 150px;
+    box-shadow: 0px 4px 24px 0px #0000001A;
+    display: none;
+    text-align: center;
+}
+
+.li4:hover .xizmat_menu{
+    display: block;
+}
+
+.xizmat_menu li{
+    text-align: center;
+    padding: 2px 0;
+    list-style: none;
+}
+
+.xizmat_menu li:hover{
+    background: rgba(0, 195, 255, 0.479);
+}
+
+
+.hoverNav{
+    width:100%;
+    display: flex;
+    justify-content:end;
+    text-align: center;
+    
+}
+.hoverNav ul{
+    margin: 0px;
+    margin-bottom: 150px;
+}
+
+.navChaild{
+   
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin:0  auto 150px;
+    list-style: none;
+}
+
+.navCh_1{
+    position: relative;
+}
+
+.btn-hover{
+    cursor: pointer;
+    /* border-radius: 5px; */
+    padding: 5px 10px;
+    color: green;
+    /* background: #5ddfffe0; */
+    margin: 10px 5px;
+    width: 150px;
+}
+
+.navCh_1:hover .hover_card{
+    display: block;
+}
+
+.navCh_2:hover .hover_card{
+    display: block;
+}
+
+
+
+.hover_card{
+    
+    position: absolute;
+    top:50px;
+    left: 5px;
+    width: 150px;
+    border-radius: 10px;
+    color:#000000;
+    font-weight: 900;
+    background: #fff;
+    box-shadow: 0px 4px 24px 0px #0000001A;
+    padding: 10px;
+    display: none;
+    transition: all 1s linear;
+}
+
+.hover_card li{
+    margin: 6px 0;
+    list-style: none;
+}
+
+
+.hover_card li:hover{
+    font-weight: 800;
+    cursor: pointer;
+    background: #5ddfffe0;
+}
+
+.navCh_2{
+    position: relative;
+}
+.book_card{
+    background-color: #00BAFC;
+}
+.books{
+    width: 60%;
+    padding: 20px 20px;
+    display: flex;
+    justify-content:space-between;
+    gap: 20px;
+}
+.book{
+    text-align: center;
+    width: 200px;
+    gap: 15px;
+}
+.book1{
+    background-color:#00BAFC;
+    color: white;
+    font-size: 18px;
+    border: 1px solid;
+    border-radius: 7px;
+    width: 200px;
+    height: 40px;
+}
+
+
+/* section crd */
+.card_wrapper {
+    width: 100%;
+    display: flex;
+    justify-content:space-evenly;
+}
+
+.card {
+    width:100%;
+    /* margin-left: 90px; */
+    text-align: center;
+    box-shadow: 0px 12px 21px 0px #0000001A;
+}
+
+.card_1{
+    width:20%;
+    text-align: center;
+    
+}
+.card_1 h4{
+    text-align: center;
+    padding: 20px 80px 20px 80px ;
+}
+.bosh{
+    height: 400px;
+}
